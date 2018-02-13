@@ -4,3 +4,4 @@ install:
 script: 
   - bundle exec thor build
   - ionic serve
+language: "javascript",

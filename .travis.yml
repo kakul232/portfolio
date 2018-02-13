@@ -1,5 +1,6 @@
 install:
   - npm install
 script: 
+  - "bundle exec rake neo4j:install['community-2.2.0-M02'] neo4j:start default --trace"
   - ionic serve
-language: "javascript",
+language: "ruby",

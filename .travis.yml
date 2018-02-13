@@ -1,7 +1,5 @@
 install:
-  - bundle install --path vendor/bundle
   - npm install
 script: 
-  - bundle exec thor build
   - ionic serve
 language: "javascript",
